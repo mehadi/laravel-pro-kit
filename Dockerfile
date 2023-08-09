@@ -29,9 +29,10 @@ RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 # Enable Apache modules
 RUN a2enmod rewrite
 
-# Change ownership and permissions of storage directory
-RUN chown -R www-data:www-data storage \
-    && chmod -R 775 storage
+# Set ownership and permissions
+RUN chown -R www-data:www-data storage
+RUN chmod -R 775 storage
+RUN chmod g+s storage
 
 # Expose port 80 for Apache
 EXPOSE 80
