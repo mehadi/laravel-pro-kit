@@ -6,6 +6,8 @@ This repository contains a CRUD (Create, Read, Update, Delete) application built
 - View a list of posts with pagination support.
 - View detailed information about each post, including the title, content, and featured image.
 - Update post information, including title and content.
+- Double click to edit post title and content
+- Image preview when uploading on post update
 - Delete posts.
 
 ###### View Post Modal
