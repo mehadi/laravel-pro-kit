@@ -7,3 +7,9 @@ This repository contains a CRUD (Create, Read, Update, Delete) application built
 - View detailed information about each post, including the title, content, and featured image.
 - Update post information, including title and content.
 - Delete posts.
+
+###### View Post Modal
+![View Post Modal](/screenshots/view-modal.png)
+
+###### Add Post Modal
+![Add Post Modal](/screenshots/add-post-modal.png)
